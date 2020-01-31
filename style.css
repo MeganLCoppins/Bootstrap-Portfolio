@@ -1,0 +1,22 @@
+body {
+    background-color: wheat;
+}
+
+
+#name {
+    background-color: darkcyan;
+    color: white;
+    padding: 10px;
+}
+
+#aboutMe {
+    color:darkcyan;
+    margin-bottom: 30px;
+}
+
+.box {
+    border: 1px solid transparent;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: white;
+}
