@@ -2,16 +2,22 @@ body {
     background-color: wheat;
 }
 
+hr {
+    border: 1px solid darkgray;
+    margin-bottom: 20px;
+}
 
 #name {
     background-color: darkcyan;
     color: white;
+    margin-top: 0;
+    margin-bottom: 0;
     padding: 10px;
 }
 
-#aboutMe {
+#secondHeading {
     color:darkcyan;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .box {
@@ -20,3 +26,18 @@ body {
     padding: 30px;
     background-color: white;
 }
+
+#submitButton {
+    background-color: darkcyan;
+}
+
+.label {
+    position: absolute;
+    bottom: 10%;
+    left: 30%;
+    background-color: darkcyan;
+    color: white;
+    text-align: center;
+    overflow: auto;
+}
+
