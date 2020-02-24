@@ -1,9 +1,17 @@
 body {
-    background-color: wheat;
+    background-image: url("https://images.pexels.com/photos/1353938/pexels-photo-1353938.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
     font-family: 'fira sans condensed', sans-serif;
 }
 
-img{
+#indexPhoto {
+    border: 2px solid rgba(102, 163, 119, 0.99); 
+}
+
+.btnSize {
+    padding: 2px;
+}
+
+img {
     height: 150px;
     width: 300px;
     margin-right: 3px;
@@ -15,12 +23,12 @@ hr {
 }
 
 #name {
-    background-color: darkcyan;
+    background-color: rgba(102, 163, 119, 0.99);
     color: white;
     height: 84px;
     margin-bottom: 0;
     margin-top: 0;
-    padding: 10px;
+    padding: 20px;
 }
 
 .navbar {
@@ -28,19 +36,41 @@ hr {
 }
 
 #secondHeading {
-    color:darkcyan;
-    margin-bottom: 20px;
+    color:rgba(76, 122, 89, 0.99);
+    margin-bottom: 10px;
 }
 
-.box {
-    border: 1px solid transparent;
-    margin: 70px auto;
-    padding: 30px;
-    background-color: white;
+#box {
+    border: 4px solid rgba(102, 163, 119, 0.99);
+    margin: 30px auto;
+    padding: 20px;
+    /* width: 400px; */
+    /* height: 500px; */
+    line-height: 40px;
+    background-color: rgba(246, 248, 247, 0.94);
+    color: rgba(66, 105, 77, 0.99);
+}
+
+#contactBox {
+    border: 4px solid rgba(102, 163, 119, 0.99);
+    margin: 30px auto;
+    padding: 20px;
+    line-height: 40px;
+    background-color: rgba(246, 248, 247, 0.84);
+    color: rgba(66, 105, 77, 0.99);
+}
+
+#portfolioBox {
+    border: 4px solid rgba(102, 163, 119, 0.99);
+    margin: 40px auto;
+    padding: 20px;
+    width: 80%;
+    background-color: rgba(246, 248, 247, 0.84);
+    color: rgba(66, 105, 77, 0.99);
 }
 
 #submitButton {
-    background-color: darkcyan;
+    background-color: rgba(102, 163, 119, 0.99);
 }
 
 .content {
@@ -50,10 +80,20 @@ hr {
     margin-right: 3px;
     padding-top: 5px;
     padding-bottom: 5px;
-    background-color: darkcyan;
+    background-color: rgba(102, 163, 119, 0.88);
     color: white;
     text-align: center;
     overflow: auto;
+}
+
+a {
+    color: white;
+}
+a:hover{
+    color: white;
+}
+a:visited{
+    color:white;
 }
 
 .page-footer {
@@ -61,19 +101,18 @@ hr {
     width: 100%;
     height: 60px;
     line-height: 60px;
-    background-color: darkcyan;
+    background-color: rgba(102, 163, 119, 0.99);
     text-align: center;
     color: white;
 }
 
 .index-footer {
-    position: absolute;
+    position: fixed;
     bottom: 0;
     width: 100%;
     height: 60px;
     line-height: 60px;
-    background-color: darkcyan;
+    background-color: rgba(102, 163, 119, 0.99);
     text-align: center;
     color: white;
 }
-

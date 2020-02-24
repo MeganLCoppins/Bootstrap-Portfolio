@@ -16,23 +16,58 @@
   </head>
   <body>
     <!-- Navigation Bar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light mb-0">
       <div class="container">
-        <h1 id="name">Megan Coppins</h1>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+        <div class="row">
+          <h1 id="name">Megan Coppins</h1>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav ml-5">
+              <li class="nav-item">
+                  <strong>414-803-5289</strong>
+                  <br>
+                  <strong>MeganLCoppins@gmail.com</strong>
+                  <br>
+              </li>
+            </ul>
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                  <a class="nav-link" href="https://linkedin.com/in/megan-coppins-aaaa00133" target="_blank">
+                      <strong>LinkedIn</strong>
+                  </a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="https://github.com/MeganLCoppins" target="_blank">
+                      <strong>GitHub</strong>
+                  </a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="https://docs.google.com/document/d/1WMkMextzoaoaByTTQHhFJt4iTbdCAmappNUgLW3fmDA/edit?usp=sharing" target="_blank">
+                      <strong>Resume</strong>
+                  </a>
+              </li>
+          </ul>
+        </div>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
+              <button class="btn btn-outline-success btnSize" type="button">
               <a class="nav-link" href="index.html">About </a>
+              </button>
             </li>
             <li class="nav-item">
+              <button class="btn btn-outline-success btnSize" type="button">
               <a class="nav-link" href="portfolio.html">Portfolio</a>
+              </button>
             </li>
             <li class="nav-item  active">
+              <button class="btn btn-outline-success btnSize" type="button">
               <a class="nav-link" href="contact.html"
                 >Contact <span class="sr-only">(current)</span></a>
+              </button>
             </li>
           </ul>
         </div>
@@ -41,8 +76,7 @@
     <!-- End of Navigation Bar -->
     <div class="container">
       <div class="row">
-        <div class="col">
-          <div class="box">
+        <div class="col" id="contactBox">
             <h1 id=secondHeading>Contact</h1>
             <hr>
             <form>
@@ -63,13 +97,12 @@
               </div>
               <button type="submit" class="btn btn-primary" id="submitButton">Submit</button>
             </form>
-          </div>
         </div>
       </div>
     </div>
+
   <!-- Footer -->
     <footer class="page-footer">
-      <div class="container">
         <span>Site Built by Megan Coppins</span>
       </div>
     </footer>
