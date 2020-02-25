@@ -4,7 +4,7 @@ I built my Bootstrap Portfolio using Bootstrap CSS Framework to create a respons
 
 The following images demonstrate the About Me, Portfolio, and Contact Pages:
 
-<img src="assets/images/screenshot1.png" alt="About Me Page">
+<img src="assets/images/Screenshot1.png" alt="About Me Page">
 
 <img src="assets/images/screenshot6.png" alt="Portfolio Page">
 
