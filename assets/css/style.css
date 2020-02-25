@@ -12,7 +12,7 @@ body {
 }
 
 img {
-    height: 150px;
+    height: 350px;
     width: 300px;
     margin-right: 3px;
 }
@@ -80,7 +80,7 @@ hr {
     margin-right: 3px;
     padding-top: 5px;
     padding-bottom: 5px;
-    background-color: rgba(102, 163, 119, 0.88);
+    background-color: rgba(102, 163, 119, 0.68);
     color: white;
     text-align: center;
     overflow: auto;

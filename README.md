@@ -8,7 +8,7 @@ The following images demonstrate the About Me, Portfolio, and Contact Pages:
 
 <img src="https://raw.githubusercontent.com/MeganLCoppins/Bootstrap-Portfolio/master/assets/images/Screen%20Shot%202020-02-23%20at%206.36.01%20PM.png">
 
-<img src="https://github.com/MeganLCoppins/Bootstrap-Portfolio/blob/master/assets/images/Screen%20Shot%202020-02-23%20at%206.36.12%20PM.png?raw=true">
+<img src="https://raw.githubusercontent.com/MeganLCoppins/Bootstrap-Portfolio/master/assets/images/Screen%20Shot%202020-02-23%20at%206.36.12%20PM.png">
 
 https://meganlcoppins.github.io/Bootstrap-Portfolio/
 
