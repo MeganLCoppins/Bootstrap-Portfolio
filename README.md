@@ -4,11 +4,11 @@ I built my Bootstrap Portfolio using Bootstrap CSS Framework to create a respons
 
 The following images demonstrate the About Me, Portfolio, and Contact Pages:
 
-<img src="https://raw.githubusercontent.com/MeganLCoppins/Bootstrap-Portfolio/master/assets/images/Screen%20Shot%202020-02-23%20at%205.06.35%20PM.png">
+<img src="assets/images/screenshot1.png" alt="About Me Page">
 
-<img src="https://raw.githubusercontent.com/MeganLCoppins/Bootstrap-Portfolio/master/assets/images/Screen%20Shot%202020-02-23%20at%206.36.01%20PM.png">
+<img src="assets/images/screenshot6.png" alt="Portfolio Page">
 
-<img src="https://raw.githubusercontent.com/MeganLCoppins/Bootstrap-Portfolio/master/assets/images/Screen%20Shot%202020-02-23%20at%206.36.12%20PM.png">
+<img src="assets/images/screenshot7.png" alt="Contact Page">
 
 https://meganlcoppins.github.io/Bootstrap-Portfolio/
 
